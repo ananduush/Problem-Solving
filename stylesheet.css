@@ -1,0 +1,62 @@
+body{
+    background: #020202;
+    text-align: center;
+}
+
+.intro h1{
+    color: wheat;
+    font-family: sans-serif;
+}
+
+::placeholder {
+    color: wheat;
+}
+
+.answer h1{
+    color: #FFE5D9;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+input, select, textarea{
+    color: #c8ffcb;
+}
+
+p{
+    color: #FFCAD4;
+}
+
+.comment-box{
+    border: 1px solid #ccc;
+    background: #04471C;
+    border-radius: 2vh;
+    margin: auto;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+.commentform input, .commentform textarea{
+    width: 500px;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #058C42;
+    border-radius: 5px;
+}
+
+.comment-box button{
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
